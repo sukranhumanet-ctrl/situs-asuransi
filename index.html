@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Insurance Insight – Practical Insurance, Loan & Money Guides</title>
+<meta name="description" content="Independent, plain-language guides on insurance, loans and personal finance.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📰%3C/text%3E%3C/svg%3E">
+<!-- ADSENSE: after approval-ready, paste your AdSense script tag here -->
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f4f4;--card:#fff;--text:#222;--muted:#666;--line:#e3e3e3;--accent:#c83c00;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141414;--card:#1f1f1f;--text:#eee;--muted:#aaa;--line:#333}}
+:root[data-theme="dark"]{--bg:#141414;--card:#1f1f1f;--text:#eee;--muted:#aaa;--line:#333}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 "Source Sans 3",system-ui,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--accent);z-index:30}
+a{color:inherit;text-decoration:none}
+header{background:var(--accent);position:sticky;top:env(safe-area-inset-top,0px);z-index:20}
+.bar{max-width:1200px;margin:auto;display:flex;gap:20px;align-items:center;padding:0 16px;height:52px;color:#fff;overflow-x:auto}
+.logo{font-weight:700;font-size:20px;margin-right:auto;white-space:nowrap}
+.bar a{font-weight:600;white-space:nowrap}
+main{max-width:1200px;margin:20px auto;padding:0 16px}
+.sec{font-size:18px;margin:0 0 12px;padding-bottom:6px;border-bottom:2px solid var(--line);position:relative}
+.sec::after{content:"";position:absolute;left:0;bottom:-2px;width:60px;height:2px;background:var(--accent)}
+.top{display:grid;grid-template-columns:1fr 1.7fr 1fr;gap:16px;margin-bottom:28px}
+@media(max-width:900px){.top{grid-template-columns:1fr}}
+.tr{display:flex;gap:12px;background:var(--card);margin-bottom:10px}
+.th{width:88px;min-height:84px;flex:none;display:grid;place-items:center;font-size:30px;position:relative}
+.num{position:absolute;left:0;bottom:0;background:var(--accent);color:#fff;width:24px;height:24px;text-align:center;font-size:13px;font-weight:700}
+.tr div:last-child{padding:6px 8px 6px 0;font-weight:700;font-size:15px;line-height:1.3}
+.hero,.mini{position:relative;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;padding:18px;overflow:hidden;margin-bottom:10px}
+.hero{min-height:400px}.mini{min-height:195px}
+.em{position:absolute;top:24px;right:24px;font-size:100px;opacity:.9}.mini .em{font-size:60px;top:14px;right:14px}
+.hero h2{font-size:32px;line-height:1.15;margin:10px 0}.mini h3{font-size:18px;line-height:1.25;margin:8px 0}
+.tag{background:var(--accent);color:#fff;font-size:13px;font-weight:700;padding:1px 10px;width:fit-content;display:inline-block}
+.meta{font-size:13px;color:var(--muted)}.hero .meta,.mini .meta{color:#eee}
+.arr{position:absolute;top:10px;left:10px;display:flex;gap:6px;z-index:2}
+.arr button{width:32px;height:32px;border:0;background:#fff;color:#222;font-size:16px;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:16px}
+.card{background:var(--card)}
+.img{height:150px;display:grid;place-items:center;font-size:56px;position:relative}
+.img .tag{position:absolute;left:12px;bottom:12px;font-size:12px}
+.tx{padding:12px}.tx h3{font-size:16px;line-height:1.3;margin:0 0 8px}
+.full{background:var(--card);padding:24px;max-width:780px;margin:auto}
+.full h1{font-size:34px;line-height:1.2;margin:10px 0}.full .img{height:220px;margin:16px 0}
+.full a.b{color:var(--accent);font-weight:700}
+.note{border-left:4px solid var(--accent);padding:8px 14px;background:var(--bg);font-size:14px;color:var(--muted)}
+footer{background:#111;color:#bbb;margin-top:40px;padding:28px 16px;text-align:center;font-size:14px}
+footer a{margin:0 10px;color:#fff}
+</style>
+</head>
+<body>
+<header><div class="bar"><a class="logo" href="#home">📰 Insurance Insight</a><a href="#home">Home</a><a href="#cat-insurance">Insurance</a><a href="#cat-loans">Loans</a><a href="#cat-finance">Finance</a></div></header>
+<main id="app"></main>
+<footer>
+<p><a href="#about">About</a><a href="#contact">Contact</a><a href="#privacy">Privacy Policy</a><a href="#disclaimer">Disclaimer</a></p>
+<p>© 2026 Insurance Insight. Educational content only – not financial, legal or insurance advice.</p>
+</footer>
+<script>
+const A=[
+{id:'a1',cat:'Insurance',t:'How to Read a Health Insurance Plan Before You Buy It',e:'🩺',g:'linear-gradient(135deg,#1d4ed8,#60a5fa)',b:['A low monthly premium can hide a high cost when you actually need care. Before choosing a plan, compare four numbers side by side: the premium, the deductible, the copay or coinsurance, and the out-of-pocket maximum.','The deductible is what you pay before the insurer starts sharing costs. The out-of-pocket maximum is the most you can owe in a year for covered care, so it is the best measure of your worst-case spending.','Also check whether your doctors and regular medications are covered, and whether the plan has a network that fits where you live. A plan is only a good deal if it works for the care you really use.']},
+{id:'a2',cat:'Loans',t:'5 Questions to Ask Before Accepting Any Loan Offer',e:'💳',g:'linear-gradient(135deg,#0f766e,#5eead4)',b:['Fast approval is not the same as a fair deal. Before you click accept, slow down and ask: what is the total cost, not just the monthly payment?','Ask for the APR, all fees (origination, late, early-repayment), the full repayment term, and what happens if you miss a payment. Compare at least two other offers using the same loan amount and term.','If a lender promises “guaranteed approval” without checking your finances, or asks for payment before releasing funds, treat it as a warning sign and walk away.']},
+{id:'a3',cat:'Insurance',t:'Car Insurance Basics: Liability, Collision and Comprehensive',e:'🚗',g:'linear-gradient(135deg,#b45309,#fbbf24)',b:['Liability coverage pays for damage or injuries you cause to others. It is usually the legal minimum, but the minimum may be far too low to cover a serious accident.','Collision coverage pays to repair your own car after a crash, while comprehensive covers events such as theft, fire, flooding or falling objects. Both usually have a deductible you choose.','If your car is old and low in value, paying for collision may cost more than it is worth. Compare the yearly premium with the car’s market value before deciding.']},
+{id:'a4',cat:'Finance',t:'Building a Starter Emergency Fund: A Simple Step-by-Step Plan',e:'🏦',g:'linear-gradient(135deg,#475569,#cbd5e1)',b:['An emergency fund keeps a surprise bill from turning into debt. Start small: a first goal of one month of essential expenses is realistic and still very useful.','Open a separate savings account, set an automatic transfer on payday, and increase it whenever your income rises. Keeping the money apart makes it harder to spend by accident.','Once you reach one month, aim for three to six months of essential costs. Rent, food, utilities, transport and insurance are the numbers that matter.']},
+{id:'a5',cat:'Insurance',t:'Term vs. Whole Life Insurance: Which Fits Your Situation?',e:'🛡️',g:'linear-gradient(135deg,#7c3aed,#c4b5fd)',b:['Term life insurance covers you for a set period, such as 20 years, and is generally the lower-cost option. It suits people who want to protect dependants while they have debts or children at home.','Whole life insurance lasts your lifetime and builds a cash value, but premiums are significantly higher. It can fit specific estate or long-term planning needs.','Compare the cost of each for the same coverage amount, and read what happens if you stop paying. A licensed advisor can help confirm what fits your situation.']}
+];
+const P={
+about:['About Insurance Insight','Insurance Insight publishes plain-language guides about insurance, loans and everyday personal finance. Our goal is to help readers understand the questions to ask before they sign, compare or buy. We do not sell insurance or loans, and we do not receive payment to rank any provider. Articles are written for general education and reviewed before publication.'],
+contact:['Contact Us','Questions, corrections or suggestions are welcome. Email: contact@yourdomain.com (replace with your real address). We aim to reply within a few business days.'],
+privacy:['Privacy Policy','We respect your privacy. This site may collect basic, non-identifying usage data (such as pages visited and browser type) through analytics tools. We do not knowingly collect personal information unless you contact us by email. Third-party vendors, including Google, may use cookies to serve ads based on your prior visits to this or other websites. Google’s use of advertising cookies enables it and its partners to serve ads to you. You can opt out of personalised advertising at Google Ads Settings. We may link to external sites that have their own privacy policies; we are not responsible for their content. By using this site you agree to this policy. Last updated: November 11, 2026.'],
+disclaimer:['Disclaimer','The content on Insurance Insight is for general educational purposes only. It is not financial, legal, tax or insurance advice. Policies, rates and loan terms vary by provider and location; always read the official documents and consult a licensed professional before making decisions. We are not liable for actions taken based on information on this site.']
+};
+const D='November 11, 2026';let hi=0;
+const $=document.getElementById('app');
+const meta=a=>`<div class="meta">admin · ${D}</div>`;
+const link=a=>`href="#${a.id}"`;
+function hero(){const a=A[hi];return `<div class="hero" style="background:linear-gradient(to top,rgba(0,0,0,.8),transparent 65%),${a.g}"><div class="arr"><button onclick="sl(-1)" aria-label="Previous">‹</button><button onclick="sl(1)" aria-label="Next">›</button></div><div class="em">${a.e}</div><span class="tag">${a.cat}</span><a ${link(a)}><h2>${a.t}</h2></a>${meta()}</div>`}
+function sl(n){hi=(hi+n+A.length)%A.length;const h=document.getElementById('hw');if(h)h.innerHTML=hero()}
+const mini=a=>`<div class="mini" style="background:linear-gradient(to top,rgba(0,0,0,.8),transparent 70%),${a.g}"><div class="em">${a.e}</div><span class="tag">${a.cat}</span><a ${link(a)}><h3>${a.t}</h3></a>${meta()}</div>`;
+const card=a=>`<div class="card"><div class="img" style="background:${a.g}">${a.e}<span class="tag">${a.cat}</span></div><div class="tx"><a ${link(a)}><h3>${a.t}</h3></a>${meta()}</div></div>`;
+function home(cat){
+const L=cat?A.filter(a=>a.cat.toLowerCase()===cat):A;
+if(cat)return `<h2 class="sec">${cat[0].toUpperCase()+cat.slice(1)}</h2><div class="grid">${L.map(card).join('')||'<p>No articles yet.</p>'}</div>`;
+return `<div class="top"><div><h2 class="sec">Trending Now</h2>${A.map((a,i)=>`<a ${link(a)} class="tr"><div class="th" style="background:${a.g}">${a.e}<span class="num">${i+1}</span></div><div>${a.t}</div></a>`).join('')}</div><div><h2 class="sec">Top Story</h2><div id="hw">${hero()}</div></div><div><h2 class="sec">Latest</h2>${mini(A[1])}${mini(A[2])}</div></div><h2 class="sec">Featured Stories</h2><div class="grid">${A.map(card).join('')}</div>`}
+function art(a){return `<article class="full"><a class="b" href="#home">← Back to home</a><span class="tag" style="display:block;margin-top:14px">${a.cat}</span><h1>${a.t}</h1>${meta()}<div class="img" style="background:${a.g}">${a.e}</div>${a.b.map(p=>`<p>${p}</p>`).join('')}<p class="note">General information only, not professional advice. Check the terms of your own policy or loan and consult a licensed professional.</p></article>`}
+function route(){const h=location.hash.slice(1)||'home';let x;
+if(P[h])x=`<article class="full"><h1>${P[h][0]}</h1><p>${P[h][1]}</p></article>`;
+else if(h.startsWith('cat-'))x=home(h.slice(4));
+else{const a=A.find(a=>a.id===h);x=a?art(a):home()}
+$.innerHTML=x;window.scrollTo(0,0)}
+addEventListener('hashchange',route);route();
+</script>
+</body>
+</html>
